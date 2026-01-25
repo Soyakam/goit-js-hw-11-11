@@ -30,3 +30,25 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+.gallery-item {
+  /* display: grid;
+  grid-template-columns: repeat(3, 5em);
+  grid-template-rows: repeat(3, 5em);
+  grid-auto-flow: column; */
+}
+form {
+  width: 100%;
+  margin-bottom: 16px;
+  display: block;
+  border-radius: 8px;
+  column-count: 4;
+  column-gap: 16px;
+}
+label {
+}
+.form {
+  margin: 50px;
+}
+.fot {
+  padding: 10px;
+}
